@@ -9,3 +9,25 @@ h1 {
 .devil {
     color: firebrick;
 }
+
+p {
+    text-align: justify;
+}
+
+.bg {
+    background-color: lightcoral;
+    width: 50%;
+}
+
+section {
+    display: flex;
+}
+
+.width-part {
+    width: 50%;
+    padding-left: 7%;
+}
+
+.width-part img {
+    width: 70%;
+}
