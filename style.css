@@ -22,7 +22,7 @@ p {
 
 section {
     display: flex;
-    margin-bottom: 11%;
+    margin-bottom: 8%;
 }
 
 .width-part {
@@ -31,7 +31,7 @@ section {
 }
 
 .width-part img {
-    width: 70%;
+    width: 90%;
 }
 
 .link-button {
@@ -49,8 +49,20 @@ section {
 
 }
 
-.aim-high {
+.set-aim {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-x: bottom;
+}
+
+.width-part p {
+    margin-right: 5%;
+    padding-right: 5%;
+
+}
+
+#width-part-set {
+    padding: 5%;
+
 }
