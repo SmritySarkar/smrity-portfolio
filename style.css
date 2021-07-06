@@ -20,7 +20,7 @@ p {
     width: 50%;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 8%;
 }
@@ -64,5 +64,43 @@ section {
 
 #width-part-set {
     padding: 5%;
+
+}
+
+.oragne-color {
+    color: orange;
+}
+
+.experience-item {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px grey;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.Experience-part {
+    margin-top: 5%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#CEH {
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+#LTA {
+
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, rgb(7, 192, 224));
+    border-image-slice: 1;
 
 }
